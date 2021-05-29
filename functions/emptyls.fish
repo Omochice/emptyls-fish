@@ -6,7 +6,3 @@ function emptyls
     end
     commandline -f execute
 end 
-
-function fish_user_key_binding
-    bind \r emptyls
-end
