@@ -18,5 +18,13 @@ function fish_user_key_bindings
 end
 ```
 
+#### Optional
+
+If you want to use other commands like `git status`, use variable `__emptyls_cmds__` in fish shell.
+
+```console
+$ set -Ux __emptyls_cmds__ "ls" "git status"
+```
+
 ##  Inspiration
 - https://github.com/desyncr/auto-ls
